@@ -23,7 +23,39 @@ petits facs :
 -il y a le copié collé ***amen***
 
 
+## la structure de commande 
+
 ### les applets
 
 de ce que je peut comprendre ici, les commandes sont formées comme des genre de phrases, genre : ```get-service``` où get = verbe service = nom
 et ensuite on peut rajouter des commutateurs un peut comme des options spécifique : ```get-service -name "*net*"``` où -name est une option et "*net*" une valeur
+
+et ensuite y'a un truc qui s'apelle da collection d'instance, en gros les commandes sembles revoyer à ce truc qui est un genre de collection d'éléments qui doivent être sois des actions, sois des programmes, je verrais
+
+
+### les variables
+
+les variables quand même je pense (j'éspère) que tout le monde connais donc je ne m'attarde pas là dessus 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
