@@ -35,7 +35,34 @@ et ensuite y'a un truc qui s'apelle da collection d'instance, en gros les comman
 
 ### les variables
 
-les variables quand même je pense (j'éspère) que tout le monde connais donc je ne m'attarde pas là dessus 
+les variables quand même je pense (j'éspère) que tout le monde connais donc je ne m'attarde pas là dessus, mais déjà ce que je peut dire c'est que visiblement, toutes les variables doivent être précédé d'un symbole $, qu'elle sont typées lors de l'affectation, et que le moyen le plus simple de les déclarés est sûrement direct de les affecter (comme d'hab quoi) ex : ```$Process = Get-Process```
+
+### le pipeline
+
+alors celui là j'en avait déjà entendut parlé et même un peu utilisé 
+le pipeline déjà, c'est ce charactère : ```|```
+il est décris comme capable de "chainer" plusieurs commandes,
+moi je le considairerais personellement comme un "et" ou un "puis" étant donné qu'il permet de faire quelquechose d'autre à la suite
+
+### les commandes decouverte 
+
+quelques commandes "basiques"
+
+|*cmdlet*|*description*|*alias*|
+|..|..|..|
+|Get-Command|Informations de base sur les commandes|gcm|
+|..|..|..|
+|Get-Help|Aide de base (utiliser -full ou -example)|help, man|
+
+
+
+
+
+
+
+
+
+
 
 
 
