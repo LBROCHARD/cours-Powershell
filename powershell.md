@@ -46,6 +46,8 @@ moi je le considairerais personellement comme un "et" ou un "puis" étant donné
 
 ### les commandes decouverte 
 
+[Info](#){.btn .btn-info} test
+
 quelques commandes "basiques"
 
 |*cmdlet*|*description*|*alias*|
