@@ -5,12 +5,12 @@
 Powershell -> permet de faire des scripts genre qui te permettent de faire des boucles
 et des trucs auto histoires d'aller un peu plus vite de 600 lignes de code
 
-Get-ChildItem -> ls
-Get-Alias [commandes] -> te donne equivalent commande genre tu peut faire alias ls pour faire un ls
-Set-Location [chemin] -> cd
-Get-Process -> processus en cours comme sur gestionnaire des tâches
-Get-Service -> services en cours comme sur gestionnaire des tâches
-Get-command -> te donne les commandes 
+* Get-ChildItem -> ls
+* Get-Alias [commandes] -> te donne equivalent commande genre tu peut faire alias ls pour faire un ls
+* Set-Location [chemin] -> cd
+* Get-Process -> processus en cours comme sur gestionnaire des tâches
+* Get-Service -> services en cours comme sur gestionnaire des tâches
+* Get-command -> te donne les commandes 
 
 
 ### grosso modo c'est quoi ? 
