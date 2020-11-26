@@ -44,7 +44,7 @@ le pipeline déjà, c'est ce charactère : ```|```
 il est décris comme capable de "chainer" plusieurs commandes,
 moi je le considairerais personellement comme un "et" ou un "puis" étant donné qu'il permet de faire quelquechose d'autre à la suite
 
-### les commandes decouverte 
+### les commandes découverte 
 
 [Info](#){.btn .btn-info} test
 
@@ -54,6 +54,22 @@ quelques commandes "basiques"
 |--------|--------|--------|
 |Get-Command|Informations de base sur les commandes|gcm|
 |Get-Help|Aide de base (utiliser -full ou -example)|help, man|
+|Get-Member |Informations sur les méthodes et propriétés des objets |gm |
+|Get-PSDrive |Informations sur les “lecteurs” PowerShell |gdr |
+|Get-Module |Liste les “modules” actuellement chargés |gmo |
+|Get-PSSnapin |Liste les “snapins” actuellement chargés |gsnp |
+
+c'est une liste de quelques commandes intégrés (appelées : cmdlet) parmis les très nombreuses autres commandes
+pour compter son nombre exact on peut utiliser la commande ```(Get-Command –CommandType cmdlet).count```
+
+version de powershell : ```$Host.version.major```
+
+> oh sinon petit truc sympa, le powershell n'est ni sensible à la casse, ni aux espaces ou tabulations en trop ***amen bis*** 
+
+
+
+
+
 
 
 
