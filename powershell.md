@@ -1,5 +1,6 @@
 # powershell
 
+[retour au README.md](https://github.com/LBROCHARD/cours-linux)
 	
 Powershell -> permet de faire des scripts genre qui te permettent de faire des boucles
 et des trucs auto histoires d'aller un peu plus vite de 600 lignes de code
@@ -119,3 +120,4 @@ ce qu'on peut voir sur les commandes, c'est qu'il y en a différent types :
 
 
 
+[retour au README.md](https://github.com/LBROCHARD/cours-linux)
