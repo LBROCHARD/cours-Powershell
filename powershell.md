@@ -24,7 +24,7 @@ petits facs :
 
 ### la base :
 
-c'est un truc qui te permet d'automatiser les trucs que tu dois faire, fin les commandes que tu dois taper quoi, tu fais des scripts qui te permettent de 
+c'est un truc qui te permet d'automatiser les trucs que tu dois faire, fin les commandes que tu dois taper quoi, tu fais des scripts qui te permettent de faire tout seuls juste en le lançant, plusieurs commandes que tu aurais dût taper toi même
 
 
 ## la structure de commande 
