@@ -22,6 +22,10 @@ petits facs :
 -bon bah ça on connais mais bon il faut le rapeler : entrée = executer commande, flèche du haut = commande d'avant
 -il y a le copié collé ***amen***
 
+### la base :
+
+c'est un truc qui te permet d'automatiser les trucs que tu dois faire, fin les commandes que tu dois taper quoi, tu fais des scripts qui te permettent de 
+
 
 ## la structure de commande 
 
@@ -59,6 +63,8 @@ quelques commandes "basiques"
 |Get-Module |Liste les “modules” actuellement chargés |gmo |
 |Get-PSSnapin |Liste les “snapins” actuellement chargés |gsnp |
 
+_remarque : utilisez gcm avec un nom derrière_
+
 c'est une liste de quelques commandes intégrés (appelées : cmdlet) parmis les très nombreuses autres commandes
 pour compter son nombre exact on peut utiliser la commande ```(Get-Command –CommandType cmdlet).count```
 
@@ -66,10 +72,19 @@ version de powershell : ```$Host.version.major```
 
 > oh sinon petit truc sympa, le powershell n'est ni sensible à la casse, ni aux espaces ou tabulations en trop ***amen bis*** 
 
+quelques commutateurs pour le Get-Help : 
+* example
+* full
+* detailed
+* online
 
+la commande help effectue en fait une recherche parmis tout les fichiers ```About_```  qui sont des fichiers de documentation et d'aide
 
+(petite remarque : le mkdir marche, et dcp si je dis pas de conneries, la plupart des commandes linux doivent marcher (genre mv, rm, rmdir, nano...) (en même temps c'est un peu basé sur unix nan ?)
 
-
+ce qu'on peut voir sur les commandes, c'est qu'il y en a différent types : 
+* les alias : qui sont des pointeurs vers des commandes, des application ou des fonction mais avec des noms plus courts (ls c'est quand même plus simple que Get-ChildItem)
+* les 
 
 
 
