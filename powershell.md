@@ -51,9 +51,13 @@ moi je le considairerais personellement comme un "et" ou un "puis" étant donné
 quelques commandes "basiques"
 
 |*cmdlet*|*description*|*alias*|
-|..|..|..|
+
+|--------|--------|--------|
+
 |Get-Command|Informations de base sur les commandes|gcm|
+
 |Get-Help|Aide de base (utiliser -full ou -example)|help, man|
+
 
 
 
