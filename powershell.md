@@ -83,10 +83,21 @@ la commande help effectue en fait une recherche parmis tout les fichiers ```Abou
 
 (petite remarque : le mkdir marche, et dcp si je dis pas de conneries, la plupart des commandes linux doivent marcher (genre mv, rm, rmdir, nano...) (en même temps c'est un peu basé sur unix nan ?)
 
+###la commande Get-Command
+
 ce qu'on peut voir sur les commandes, c'est qu'il y en a différent types : 
 * les alias : qui sont des pointeurs vers des commandes, des application ou des fonction mais avec des noms plus courts (ls c'est quand même plus simple que Get-ChildItem)
-* les 
+* les fonctions : qui sont des bouts de codes écris au préalable qui peremttent quand ils sont appelées d'executer le code qu'il contiennet, cela permet par exemple d'effectuer une action beaucoup plus rapidement (on pourrais imaginer une fonction qui quand on l'apelle nous permet de crer un fichier , d'ecrire quelquechose dedans puis de l'ouvrir, ce qui nous évite de faire 3 commandes différentes)
+* les Cmdlet : qui sont un ensemble de commandes déjà présentes sur le powershell (si je comprend bien il s'agit de classes de Framwork .Net simplifié)
+* les application : qui sont des fichiers executables situés dans le PATH et qui peuvent être téléchargés 
 
+> info : il faut savoir que le powershell contient un bon nombre de commande de base, mais qu'il est quand même possible de le completer en téléchargant des "modules" qui sont un peu des extentions si on veut parler plus facilement
+
+### la commande Get-Member
+
+|termes |explications |
+|---|----------|
+|classe  |plan de constru  |
 
 
 
