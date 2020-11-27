@@ -29,6 +29,9 @@ petits facs :
 c'est un truc qui te permet d'automatiser les trucs que tu dois faire, fin les commandes que tu dois taper quoi, tu fais des scripts qui te permettent de faire tout seuls juste en le lançant, plusieurs commandes que tu aurais dût taper toi même
 
 
+## powershell
+
+
 ## brève histoire du powershell 
 
 > note : le powershell est le sucesseur de l'interface de commande DOS de windows
