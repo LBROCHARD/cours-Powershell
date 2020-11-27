@@ -23,9 +23,17 @@ petits facs :
 -bon bah ça on connais mais bon il faut le rapeler : entrée = executer commande, flèche du haut = commande d'avant
 -il y a le copié collé ***amen***
 
+
 ### la base :
 
 c'est un truc qui te permet d'automatiser les trucs que tu dois faire, fin les commandes que tu dois taper quoi, tu fais des scripts qui te permettent de faire tout seuls juste en le lançant, plusieurs commandes que tu aurais dût taper toi même
+
+
+## brève histoire du powershell 
+
+> note : le powershell est le sucesseur de l'interface de commande DOS de windows
+
+
 
 
 ## la structure de commande 
