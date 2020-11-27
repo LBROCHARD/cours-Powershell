@@ -91,7 +91,7 @@ la commande help effectue en fait une recherche parmis tout les fichiers ```Abou
 
 (petite remarque : le mkdir marche, et dcp si je dis pas de conneries, la plupart des commandes linux doivent marcher (genre mv, rm, rmdir, nano...) (en même temps c'est un peu basé sur unix nan ?)
 
-###la commande Get-Command
+### la commande Get-Command
 
 ce qu'on peut voir sur les commandes, c'est qu'il y en a différent types : 
 * les alias : qui sont des pointeurs vers des commandes, des application ou des fonction mais avec des noms plus courts (ls c'est quand même plus simple que Get-ChildItem)
