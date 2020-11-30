@@ -106,10 +106,15 @@ ce qu'on peut voir sur les commandes, c'est qu'il y en a différent types :
 
 ### la commande Get-Member
 
+parait-il cette commande est un explorateur d'objets
+
 |termes |explications |
 |---|----------|
 |classe  |plan de constru  |
 
+comment s'utilise la programation objet avec le power shell : 
+```object.methode ou object.propriété``` si en local
+et :: ```[type.NET]::membre``` pour les framework .NET
 
 
 
@@ -117,6 +122,11 @@ ce qu'on peut voir sur les commandes, c'est qu'il y en a différent types :
 
 
 
+
+
+
+
+> observations : alors visiblement on peut faire une variable string un peu non déclaré en fesant juste ("texte") et on peut quand même l'utiliser avec des propriétés, ou des méthodes plutot, parce qu'en powershell, absolument tout est un objet ce truc deviens un objet et dcp on peut utiliser des méthodes de bases sur lui, les méthodes qu'on peut utiliser avec nimporte quel variable en string
 
 
 
