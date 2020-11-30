@@ -120,13 +120,7 @@ et :: ```[type.NET]::membre``` pour les framework .NET
 
 
 
-
-
-
-
-
-
-> observations : alors visiblement on peut faire une variable string un peu non déclaré en fesant juste ("texte") et on peut quand même l'utiliser avec des propriétés, ou des méthodes plutot, parce qu'en powershell, absolument tout est un objet ce truc deviens un objet et dcp on peut utiliser des méthodes de bases sur lui, les méthodes qu'on peut utiliser avec nimporte quel variable en string
+> observations : alors visiblement on peut faire une variable string un peu non déclaré en fesant juste ("texte") et on peut quand même l'utiliser avec des propriétés, ou des méthodes plutot, parce qu'en powershell, absolument tout est un objet ce truc deviens un objet et dcp on peut utiliser des méthodes de bases sur lui, les méthodes qu'on peut utiliser avec nimporte quel variable en string, parce que quand on fait ("chaine").length on fait juste objet.propriété et quand on fait ("chaine").ToUpper() on fait objet.methode (et dcp comme c'est une méthode on met des parenthèses comme pour une fonction en programation procédural)
 
 
 
