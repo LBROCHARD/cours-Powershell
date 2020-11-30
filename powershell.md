@@ -143,7 +143,7 @@ et pour connaitre le type d'une variable on fait : GetType()
 et qu'il en existe plusiers types :
 
 |type|ce qu'il contient|
-|..|........|
+|--|-----------|
 |string |chaîne de texte |
 |char |symbole |
 |bool |vrai ou faux (true/false) |
