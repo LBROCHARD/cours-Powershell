@@ -1,7 +1,9 @@
 # powershell
 
 [retour au README.md](https://github.com/LBROCHARD/cours-linux)
-	
+
+**disclaimer : c'est pas rangé, pour l'instant c'est juste tout un tas d'info mis dans le désordre et bourré sur une seule page, mais je rangerais bientôt promis**
+
 Powershell -> permet de faire des scripts genre qui te permettent de faire des boucles
 et des trucs auto histoires d'aller un peu plus vite de 600 lignes de code
 
@@ -125,18 +127,34 @@ et :: ```[type.NET]::membre``` pour les framework .NET
 okay yes et j'ai enfin compris comment faire des scripts grâce au powershell ISE
 donc je vais comancer à tryhard ça
 
+## powershell keskifofère
 
+### les variables en powershell 
 
+alors basiquement ce qu'il faut savoir sur une variable c'est que où qu'elle soit, elle prend toujours un "$" devant, exemple : ```$nom = "john``` 
+ah oui et d'ailleurs, je l'ai pas vraiment montré mais = permet d'affecter une valeur à une variable, on peut aussi faire des opération derrière cette affectation, comme par exemple : ```$nombredepommes = 2 + 4``` ou encore avec d'autres variables ```$portemonnaie = 30 
+$prixobjet = 12 
+$portemonnaie = $portemonnaie + $prixobjet``` et avec des valeurs string : ```$str1 = "bonjour"
+$str2 = "john"
+$str3 = $str1 + $str2``` (ici le second deviens uns string même si il est de type int)
+les types de variables se font automatiquement mais pour le faire à la main : ```[string]$str = "salu"```
+et pour connaitre le type d'une variable on fait : GetType()
 
+et qu'il en existe plusiers types :
 
-
-
-
-
-
-
-
-
+|type|ce qu'il contient|
+|..|........|
+|string |chaîne de texte |
+|char |symbole |
+|bool |vrai ou faux (true/false) |
+|int |nombre entier 32bits |
+|long |nombre entier 64bits |
+|decimal |nombre entier 128bits (et visiblement ça rajoute une lettre d à la fin pour des raisons inconnues) |
+|double |nombre decimal à virgule flottante de 8octets |
+|single |nombre decimal à virgule flottante de 32bits |
+|datetime |date et heure |
+|array |tableau (je crois qu'on en fera un chapitre) |
+|hashtable |tableau de hachage (pareil, un chapitre) |
 
 
 
