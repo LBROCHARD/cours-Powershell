@@ -20,7 +20,7 @@
          
          montrer les différentes boucles, expliquer comment elle marches, et comment on les utilises
           
-* + - commandes utiles
+* 5 - commandes utiles
 
           moi je parlerais bien des commandes utiles en plus genre de toutes les commandes qui sont utiles poru gérer un windows et que l'on sera surement amenés à utiliser dans notre utilisation du powershell, genre la gestion des utilisateurs et tt ce genre de choses
           
