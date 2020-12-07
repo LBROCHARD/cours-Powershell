@@ -156,12 +156,12 @@ et qu'il en existe plusiers types :
 |array |tableau (je crois qu'on en fera un chapitre) |
 |hashtable |tableau de hachage (pareil, un chapitre) |
 
-# portée d'une variable 
+### portée d'une variable 
 
 une varable peut avoir différentes portées, elle peut avoir une portée globale, c'est à dire qu'elle posrte sur l'ensemble du powershell alors qu'une variable locale ne porte que sur un seul programme 
 pour qu'une variable soit globale, il faut utiliser la commande suivante : ```$Global: variable = valeur``` comme par exemple : ```$Global:var4 = 12``` 
 
-# commandes utiles variable 
+### commandes utiles variable 
 
 voici quelques commandes utiles pour utiliser les variables :
 
