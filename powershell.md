@@ -166,7 +166,7 @@ pour qu'une variable soit globale, il faut utiliser la commande suivante : ```$G
 voici quelques commandes utiles pour utiliser les variables :
 
 |commande |utilité |
-|--|-----------|
+|-------|-----------|
 |ls commande |ls variable* (ça marche aussi avec Get-ChildItem evidemment, mais j'ai juste plus l'habitude d'utiliser ls), cela dit personnellement, cette comande ne semble pas fonctionner, mais cette autre commande fonctionne : |
 |Get-Variable \| Out-String |cette commande permet de faire comme la dernière (sauf que celle ci personnellement me donne des résultats) |
 |Out-File | la commande Out-File permet "d'écrire" la variable dansu ndocument que l'on séléctionne, (si le fichier séléctionné n'existe pas elle le créé) elle existe également sous d'autres formes pour exporter en csv ou en html par exemple, on l'utilise comme ceci : ```$nom_de_la_variable | Out-File [emplacement du fichier]```  |
