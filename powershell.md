@@ -156,6 +156,27 @@ et qu'il en existe plusiers types :
 |array |tableau (je crois qu'on en fera un chapitre) |
 |hashtable |tableau de hachage (pareil, un chapitre) |
 
+# portée d'une variable 
+
+une varable peut avoir différentes portées, elle peut avoir une portée globale, c'est à dire qu'elle posrte sur l'ensemble du powershell alors qu'une variable locale ne porte que sur un seul programme 
+pour qu'une variable soit globale, il faut utiliser la commande suivante : ```$Global: variable = valeur``` comme par exemple : ```$Global:var4 = 12``` 
+
+# commandes utiles variable 
+
+voici quelques commandes utiles pour utiliser les variables :
+
+|commande |utilité |
+|--|-----------|
+|ls commande |ls variable* (ça marche aussi avec Get-ChildItem evidemment, mais j'ai juste plus l'habitude d'utiliser ls), cela dit personnellement, cette comande ne semble pas fonctionner, mais cette autre commande fonctionne : |
+|Get-Variable \| Out-String |cette commande permet de faire comme la dernière (sauf que celle ci personnellement me donne des résultats) |
+|Out-File | la commande Out-File permet "d'écrire" la variable dansu ndocument que l'on séléctionne, (si le fichier séléctionné n'existe pas elle le créé) elle existe également sous d'autres formes pour exporter en csv ou en html par exemple, on l'utilise comme ceci : ```$nom_de_la_variable | Out-File [emplacement du fichier]```  |
+|Get-Content | la commande Get-Content permet de lire le contenue d'un fichier, on l'utilise comme ceci : ```Get-Content [emplacement du fichier]``` |
+|Clear-Variable | la commande Clear-Variable permet d'effacer le contenue d'une variable, elle s'utilise comme ceci : ```Clear-Variable -name nom_de_la_variable #without $```|
+|Remove-Variable | la commande Remove-Variable permet quand a elle de supprimer une variable, elle s'utilise comme la commande clear variable : ```Remove-Variable -name nom_de_la_variable #without $```|
+
+
+
+
 
 
 
