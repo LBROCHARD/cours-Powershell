@@ -17,7 +17,7 @@ et oui, on peut faire la plupart deses choses à la main, mais nous on est des d
 
 tenez d'ailleurs, je ne l'ai toujours pas présenté, voici sous vos yeux ébahis, le powershell : 
 
-![invité de commande](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%d’écran%2020-12-08%164545.png "un peu roots nan ?")
+![invité de commande](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-08%20164545.png "un peu roots nan ?")
 
 (qu'il est beau en bleu)
 
