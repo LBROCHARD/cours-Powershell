@@ -3,7 +3,7 @@
 Qu'est ce que le powershell ? 
 
 vaste question ... 
-si on se fie à microsoft (qui en sont quand même des developpeurs) le powershell est :
+si on se fie à microsoft (qui en sont quand même les developpeurs) le powershell est :
 > une infrastructure multiplateforme pour la gestion de la configuration et de l’automatisation des tâches
 
 whouf, pas trop aidé hein ? ce qu'il faut comprendre dans un premier temps c'est que le powershell est un sorte de"logiciel" qui se trouve pré-installé sur windows et qui fonctionne un peu comme un invité de commande (vous savez, ce truc là ->)
