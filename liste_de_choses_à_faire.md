@@ -33,10 +33,10 @@
 * 1 - introduction (avec presentation de c quoi le powershell et de ses types et de à quoi il sert)
 
 * 2 -les scripts en powershell pt.1, le language (qui explique le language du powershell) et ensuite, ça amène vers d'autres liens comme par exemple 
- * 1 - comment utiliser des variables 
- * 2 - comment utiliser des tableaux 
- * 3 - comment utiliser des conditions  
- * 4 - comment utiliser des boucles 
+  - 1 - comment utiliser des variables 
+  - 2 - comment utiliser des tableaux 
+  - 3 - comment utiliser des conditions  
+  - 4 - comment utiliser des boucles 
 
 * 3 - les scripts en powershell pt.2, automatiser les commandes (qui explique ce qu'on peut scripter avec le powershell, le genre d'actions qu'on peut faire, et un peu comment coder des scripts importants, et par exemple il donne une liste des commandes qui peuvent servir pour executer un programme et comment bien les automatiser)
 
