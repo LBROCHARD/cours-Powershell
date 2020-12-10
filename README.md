@@ -8,7 +8,7 @@ Ceci est un cour d'introduction au powershell, visant à comprendre ce qu'est le
   - [lien vers *les tableaux en powershell*]()
   - [lien vers *les conditions en powershell*]()
   - [lien vers *les boucles en powershell*]()
-* [lien vers *les scripts en powershell pt.2 : l'automatisation des tâches*](https://github.com/LBROCHARD/cours-linux/blob/main/cours/sripts_automatisation.md)
+* [lien vers *les scripts en powershell pt.2 : l'automatisation des tâches*](https://github.com/LBROCHARD/cours-linux/blob/main/cours/scripts_automatiser.md)
   - [lien vers *les commandes de gestion*]()
   - [lien vers *TP exemples*]()
 * [lien vers *sources*]()
