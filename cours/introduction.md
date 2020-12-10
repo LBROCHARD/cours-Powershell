@@ -28,11 +28,11 @@ tenez d'ailleurs, je ne l'ai toujours pas présenté, voici sous vos yeux ébahi
 
 tant qu'on reste sur cette fenêtre, le powershell n'a pas beaucoup plus d'interet que l'invité de commandes, nous ce qui vas surtout nous interesser c'est le script, et il y a une autre fenêtre powershell qui vas beaucoup plus nous interesser : le powershell ISE :
 
-![lepowershellise](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-08%20164545.png "ma-gni-fique")
+![lepowershellise](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-10%20111503.png "ma-gni-fique")
 
 que l'on peut trouver en faisant simplement une recherche windows : 
 
-![trouverlepowershellise](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-08%20164545.png "pratique")
+![trouverlepowershellise](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-10%20111405.png "pratique")
 
 
 
