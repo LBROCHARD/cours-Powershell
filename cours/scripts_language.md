@@ -27,15 +27,17 @@ surtout que la liste les préfix sont très peu nombreux donc facile à retenir 
 
 et tous ses prefix peuvent être utilisées avec de nombreuses commandes (pour avoir une liste des commandes : ```Get-Command```)
 
-### les pipelines
+### les pipelines :
 
+autre chose très très importante : les pipelines, le pipeline c'est ce petit truc : ```|``` et il est très utile en powershell car il permet de chainer plusieurs commandes qui fonctionnent à la chaine, par exemple, 
 
-
+### en plus : 
 
 oh et aussi, petit truc cool pour la route :
 >le powershell n'est ni sensible à la casse, ni aux espaces ou tabulations en trop ***yes***
 
 et voici un tableau des commandes essentiels (avec leurs equivalent UNIX :
+
 
 
 
