@@ -6,12 +6,14 @@ donc tout d'abord, je pense qu'avant de ce lancer dans la programation de script
 
 ce qu'il faut retenir, c'est que chaque "choses" que l'on vas utiliser sont des objets, et que l'on vas pouvoir appeler des actions qui sont propres a ses objets 
 
+### synthaxe générale :
+
 pour la syntaxe général, les commandelets (ou cmdlets) (qui sont juste des commandes) sont formées en 2 parties : un préfix (qui represente une action) et un nom, les 2 séparés par un tiret. exemple : ```Get-Help``` c'est la commande la plus basique, literralement : obtenir - de l'aide .
 après ça, on peut rajouter des options, qui sont sous la forme d'un tiret et du nom de l'option, ex : ```write-host "Bonjour"``` affichera bonjour alors que ```write-host "Bonjour" -fore 'yellow'``` affichera la même chose, mais avec l'option ```-fore 'yellow'``` ce qui fera colorera le rendut en jaune, ça marche par exemple pour trier quand on fait une recherhe, par exemple, si on cherche des fichiers uniquement dans un dossier, on peut ajouter l'options ```-file``` après un ```Get-ChildItem``` pour qu'il ne nous montre que les fichier : ```Get-ChildItem -file```
 cette manière de former les commandes est plus longue que sur certains autres shell (je pense à UNIX notamment), mais permet cependant de retenir/trouver facilement les commandes : comment obtenir de l'aide ? --> obtenir-aide
 surtout que la liste les préfix sont très peu nombreux donc facile à retenir ...
 
-liste de préfix :
+### liste de préfix :
 
 |prefix | utilité |
 |----|--------|
@@ -25,11 +27,15 @@ liste de préfix :
 
 et tous ses prefix peuvent être utilisées avec de nombreuses commandes (pour avoir une liste des commandes : ```Get-Command```)
 
-oh et aussi, petit truc cool pour la route :
-
 ### les pipelines
 
-et voici un tableau des commandes essentiels (avec leurs equivalent 
+
+
+
+oh et aussi, petit truc cool pour la route :
+>le powershell n'est ni sensible à la casse, ni aux espaces ou tabulations en trop ***yes***
+
+et voici un tableau des commandes essentiels (avec leurs equivalent UNIX :
 
 
 
