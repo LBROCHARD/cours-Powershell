@@ -34,7 +34,7 @@ que l'on peut trouver en faisant simplement une recherche windows :
 
 ![trouverlepowershellise](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-10%20111405.png "pratique")
 
-
+et donc ce powershell ise intègre un accès direct vers une grande partie des commandes et vers un editeur de scripts bien plus pratique que de tout tapper à la main dans le terminal, c'est ça qu'on vas utiliser pour faires nos scripts en powershell 
 
 
 
