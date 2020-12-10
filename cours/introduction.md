@@ -52,6 +52,6 @@ et donc ce powershell ise intègre un accès direct vers une grande partie des c
 
 
 
-
+[aller au chapitre suivant : les scripts en powershell pt.1 : "le language"](https://github.com/LBROCHARD/cours-linux)
 
 [retour au README.md](https://github.com/LBROCHARD/cours-linux)
