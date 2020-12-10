@@ -7,7 +7,7 @@ pour vraiment vraiment résumer, on a donc des classes, qui sont des types d'obj
 ce qu'il faut retenir, c'est que chaque "choses" que l'on vas utiliser sont des objets, et que l'on vas pouvoir appeler des actions qui sont propres a ses objets 
 
 pour la syntaxe général, les commandelets (ou cmdlets) (qui sont juste des commandes) sont formées en 2 parties : un préfix (qui represente une action) et un nom, les 2 séparés par un tiret. exemple : ```Get-Help``` c'est la commande la plus basique, literralement : obtenir - de l'aide .
-cette manière de former les commandes est plus longue que sur certains autres shell, mais permet cependant de retenir facilement les commandes : comment obtenir de l'aide ? --> obtenir-aide
+cette manière de former les commandes est plus longue que sur certains autres shell (je pense à l'UNIX notamment), mais permet cependant de retenir facilement les commandes : comment obtenir de l'aide ? --> obtenir-aide
 surtout que la liste des préfix sont très limités donc facile à retenir 
 
 liste de préfix :
@@ -21,6 +21,7 @@ liste de préfix :
 |new| |
 |set| |
 |write| |
+
 
 
 
