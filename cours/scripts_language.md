@@ -2,7 +2,7 @@
 
 donc tout d'abord, je pense qu'avant de ce lancer dans la programation de scripts automatisés, il faut d'abord s'interesser au language, le language de programtion, c'est le language de scripts PowerShell, qui s'éxecute sur le WindowsPowerShell (ça c'est la suite de logiciel), et ce qu'il faut savoir sur le powershell dans un premier temps, c'est que c'est un language de programation orienté objet, ce que ça veut dire, c'est que plutot que ce sois un language avec un code qui se déroulle et qui appele des fonction, c'est un code qui est composé d'objets, répartis en classes, qui comportent chacuns des propriétés et des méthodes.
 
-*pour vraiment vraiment résumer, on a donc des classes, qui sont des types d'objet avec un nom (dit type) ex : une voiture... qui ont une liste de proptiété ex : un nombre de roues, une taille, une vitesse... et qui ont des *
+*pour vraiment vraiment résumer, on a donc des classes, qui sont des types d'objet avec un nom (dit type) ex : une voiture... qui ont une liste de proptiété ex : un nombre de roues, une taille, une vitesse... et qui ont des*
 
 ce qu'il faut retenir, c'est que chaque "choses" que l'on vas utiliser sont des objets, et que l'on vas pouvoir appeler des actions qui sont propres a ses objets 
 
