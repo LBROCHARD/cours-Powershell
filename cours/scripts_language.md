@@ -57,6 +57,7 @@ oh et aussi, petit truc cool pour la route :
 >le powershell n'est ni sensible à la casse, ni aux espaces ou tabulations en trop ***yes***
 
 
+[poursuivre vers : "les variables"](https://github.com/LBROCHARD/cours-linux/edit/main/cours/les_varaiables.md)
 
 
 
