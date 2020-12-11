@@ -35,9 +35,6 @@ il y a maintenat quelques commandes essentielles qu'il faut connaître pour pouv
 
 |commande |équivalent UNIX |utilité |
 |----|--------|--------------------|
-
-
-
 |Get-ChildItem |ls |permet d'afficher le contenue du repertoire courant |
 |Set-Location |cd |peremt de changer de repertoire courant (en gros de ce deplacer parmis les repertoirs) |
 |Get-Help |man |permet d'obtenir de l'aide |
@@ -59,7 +56,6 @@ il y a maintenat quelques commandes essentielles qu'il faut connaître pour pouv
 oh et aussi, petit truc cool pour la route :
 >le powershell n'est ni sensible à la casse, ni aux espaces ou tabulations en trop ***yes***
 
-et voici un tableau des commandes essentiels (avec leurs equivalent UNIX :
 
 
 
