@@ -25,10 +25,6 @@ surtout que la liste les préfix sont très peu nombreux donc facile à retenir 
 
 et tous ses prefix peuvent être utilisées avec de nombreuses commandes (pour avoir une liste des commandes : ```Get-Command```)
 
-### les pipelines :
-
-autre chose très très importante : les pipelines, le pipeline c'est ce petit truc : ```|``` et il est très utile en powershell car il permet de chainer plusieurs commandes qui fonctionnent à la chaine, par exemple, 
-
 ### commandes essentielles :
 
 il y a maintenat quelques commandes essentielles qu'il faut connaître pour pouvoir evoluer dans un environement comme le powershell, par exemple pour pouvoir se deplacer entre les dossiers, en créer/renommer/supprimer ou même juste obtenir de l'aide, donc voici un tableau avec les commandes essentielles, leur utilité, et leur equivalent en UNIX (parce que j'ai déjà pratiqué un peu d'UNIX donc ça me parle pas mal, et les commandes unix fonctionnes également en powershell, et comme elle sont souvent beaucoup plus courte, c'est pas mal à connaître, notemment pour ```ls``` ou ```cd``` par exmple, qui sont bien plus pratiques que ```Get-ChilsItem``` et ```Set-Location```
@@ -51,13 +47,18 @@ il y a maintenat quelques commandes essentielles qu'il faut connaître pour pouv
 |Write-Output |echo |permet d'écrire quelquechose à l'écran (à la sortie) |
 | | | |
 
-### en plus : 
+### les pipelines :
+
+autre chose très très importante : les pipelines, le pipeline c'est ce petit truc : ```|``` et il est très utile en powershell car il permet de chainer plusieurs commandes pour les faire fonctionner les unes derrières après les autres (si elles sont chainables), par exemple : la commande ```Get-process | out-file -filepath C:\Users\USER\Desktop\process.txt``` qui peremt d'obtenir une liste des processus en cours grace au ```Get-process``` et les écris dans un fichier (situé dans le path indiqué, et créé si il n'existe pas) grace au ```out-file```, qui utilise donc directement les information du get process, car il est placé derrière la pipeline, cela permet d'éviter de faire 2 lignes et peut s'averer très utile de temps en temps.
+
+### petit plus : 
 
 oh et aussi, petit truc cool pour la route :
-le powershell n'est ni sensible à la casse (majuscules, minuscules), ni aux espaces ou tabulations en trop ***yes***
+le powershell n'est ni sensible à la casse (majuscules, minuscules), ni aux espaces ou tabulations en trop 
+***yes :D***
 
 
-[poursuivre vers : "les variables"](https://github.com/LBROCHARD/cours-linux/edit/main/cours/les_varaiables.md)
+[poursuivre vers : "les variables en powershell"](https://github.com/LBROCHARD/cours-linux/edit/main/cours/les_varaiables.md)
 
 
 
