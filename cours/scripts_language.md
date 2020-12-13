@@ -51,9 +51,6 @@ Il y a maintenant quelques commandes essentielles qu'il faut connaître pour pou
 |Get-Process |ps |permet de voir la liste de tous les processus en cours d'exécution |
 |Stop-Process |kill |permet d'arrêter un processus en cours d'exécution |
 |Write-Output |echo |permet d'écrire quelque chose à l'écran (à la sortie) |
-| | | |
-
-| | | |
 
 ### Les pipelines :
 
