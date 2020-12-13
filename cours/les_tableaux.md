@@ -5,13 +5,13 @@
 Le tableau en PowerShell s’utilise de manière générale comme une simple variables avec quelques petites choses en plus.
 Pour créer un tableau à partir de valeur, il suffit de faire comme pour une variable, mais de mettre plusieurs valeurs, séparés par des virgules, comme ceci : ```$tableau = 1, 2, 3```
 
-![bonsoir]()
+![tableau](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-13%20164203.png "un tableau")
 
 Si on utilise GetType() on peut bien voir qu’il s’agit d’un tableau (symbolisé par les crochets)
 
 Mais si on veut créer un tableau mais que l’on a pour l’instant qu’un seul objet, on ne peut pas faire ```$tableau = 1``` parce que cela créerait juste une variable, donc pour créer un tableau avec un seul objet, on fait comme ça : ```$tableau = ,1``` grâce à cette virgule, on peut annoncer qu’il s’agit bien d’un tableau même s’il n’y a qu’une seule valeur :
 
-![yo]()
+![tableau avec uen seule variable](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-13%20164433.png "ça marche pareil")
 
 Si on veut entrer manuellement la valeur, ça fonctionne comme pour une variable, mais avec des crochets derrière le type choisis pour indiquer qu’il s’agit d’un tableau, exemple : ```[object[]]$tableau = 1, 2, 3```
 
