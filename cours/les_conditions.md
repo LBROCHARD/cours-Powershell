@@ -69,6 +69,6 @@ Voici une liste des plus importants opérateurs :
 
 
 
-[aller vers *?*](https://github.com/LBROCHARD/cours-linux/blob/main/cours/les_boucles.md)
+[aller vers *les boucles en powershell*](https://github.com/LBROCHARD/cours-linux/blob/main/cours/les_boucles.md)
 
 [retour au README.md](https://github.com/LBROCHARD/cours-linux)
