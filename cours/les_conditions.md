@@ -11,7 +11,7 @@ If (condition)
 	Bloc de code
 }
 
-```$texte = “hello”
+`$texte = “hello”
 If($texte -eq « hello »)
 {
 Write-output “hello, how are you ?”
@@ -19,7 +19,7 @@ Write-output “hello, how are you ?”
 Write-output “salut ! comment ça vas ?”
 } else {
 Write-output “dafuk u just said ?”
-}```
+}`
 
 
 -eq = equal
