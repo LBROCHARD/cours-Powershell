@@ -31,11 +31,15 @@ Maintenant, pour rajouter une valeur à un tableau, il existe une méthode assez
 Mais ensuite, c’est compliqué de supprimer une valeur, a vrai dire, la méthode la plus simple consiste faire une boucle qui créé un nouveau tableau, et qui pour la longueur du tableau, ajoute la valeur au nouveau tableau si elle ne correspond pas à ce que l’on veut supprimer ( inutile de comprendre ce que ça veut dire, tout ce qu’il faut retenir c’est que c’est compliqué), donc pas pratique quoi, et tout ça c’est pour une bonne raison, c’est parce que les tableaux ont une taille fixe. 
 En gros quand on créé un tableau, on rentre un nombre de valeurs, et il se construit en taille en fonction du nombre de valeur (12 valeurs = j’ai une taille de 12 / j’ai 12 places) et cette valeur ne peut pas être changé, c’est pour ça qu’on créé un nouveau tableau quand on veut ajouter une valeur, et c’est pour ça que c’est compliqué d’enlever une valeur…
 
+### Les tableaux-listes :
+
 Mais pour simplifier ça, il existe une classe de tableau qui s’appelle le tableau-liste (ArrayList), et qui se créé comme un tableau, mais avec un type ArrayList, qui s’écrit comme ceci : ```[System.Collections.ArrayList]$nom_du_tableau  =  contenu``` on peut d’ailleurs soit, créer une un tableau directement comme ceci, soit créer ce tableau à partir d’un autre tableau (pour le faire, il suffit de mettre un autre tableau à la place du contenu.
 
 ![arraylist](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-14%20104944.png "franchement c'est pas si compliqué")
 
 Et un tableau-liste est très utile, car il comporte plusieurs méthodes très utiles pour gérer les tableaux, qui permettent de tout faire très simplement, voici une liste de ses méthodes :
+
+### commande utiles tableau-liste :
 
 |méthode |syntaxe |utilité |
 |--|----|----|
