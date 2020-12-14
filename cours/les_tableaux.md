@@ -37,9 +37,9 @@ Mais pour simplifier ça, il existe une classe de tableau qui s’appelle le tab
 
 ![arraylist](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-14%20104944.png "franchement c'est pas si compliqué")
 
-Et un tableau-liste est très utile, car il comporte plusieurs méthodes très utiles pour gérer les tableaux, qui permettent de tout faire très simplement, voici une liste de ses méthodes :
+Et un tableau-liste est très utile, car il comporte plusieurs méthodes très utiles pour gérer les tableaux, qui permettent de tout faire très simplement. voici une liste de ses méthodes :
 
-### commande utiles tableau-liste :
+### méthodes utiles tableau-liste :
 
 |méthode |syntaxe |utilité |
 |--|----|----|
@@ -47,7 +47,7 @@ Et un tableau-liste est très utile, car il comporte plusieurs méthodes très u
 |.remove |$nom_du_tableau.remove(ce_qu’il_faut_supprimer)| pour supprimer une valeur dans le tableau |
 |lenght |$nom_du_tableau.lenght |pour connaitre la longueur du tableau | 
 |.contains |$nom_du_tableau.contains(valeur) |vérifie que ce qui est mis entre parenthèses existe dans le tableau,  renvoie un true/false|
-|null |$nom_du_tableau = null |pour effacer le contenue du tableau |
+|null |$nom_du_tableau = null |pour effacer le contenue du tableau (oui je sais c'est pas une méthode mais c'est super utile)|
 
 
 [aller vers *les conditions en powershell*](https://github.com/LBROCHARD/cours-linux/blob/main/cours/les_conditions.md)
