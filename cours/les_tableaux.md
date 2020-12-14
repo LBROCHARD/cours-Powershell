@@ -1,4 +1,4 @@
-# Les tableaux en powershell
+# Les tableaux en PowerShell
 
 ### Syntaxe générale :
 
