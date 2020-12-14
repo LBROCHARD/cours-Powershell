@@ -11,15 +11,15 @@ If (condition)
 	Bloc de code
 }
 
-`$texte = “hello”
-If($texte -eq « hello »)
-{
-Write-output “hello, how are you ?”
-} elseif($texte -eq « bonjour ») -or ($texte -eq “salut”) {
-Write-output “salut ! comment ça vas ?”
-} else {
-Write-output “dafuk u just said ?”
-}`
+`$texte = “hello”`
+`If($texte -eq « hello »)`
+`{`
+`Write-output “hello, how are you ?”`
+`} elseif($texte -eq « bonjour ») -or ($texte -eq “salut”) {`
+`Write-output “salut ! comment ça vas ?”`
+`} else {`
+`Write-output “dafuk u just said ?”`
+`}`
 
 
 -eq = equal
