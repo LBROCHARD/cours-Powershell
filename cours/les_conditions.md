@@ -1,50 +1,70 @@
 # Les conditions en PowerShell
 
- ###les différents types de conditions 
+Les conditions sont un autre point très important dans un langage de programmation, elle permet à un programme de réagir en fonction de différents paramètres et donc d’avoir une réponse adaptée.
+En PowerShell, les conditions sont assez basiques, et ressemble beaucoup à beaucoup d’autre langages.
 
-En PowerShell, il existe différents types de conditions, le IF, le ELSE, et le IF
+### Synthaxe générale :
 
-###synthaxe générale :
+En PowerShell, il existe trois types de conditions, le IF, le ELSE, et le ELSEIF.
+La base de ses conditions fonctionne de la manière suivante : le IF se traduit par un « si » en français, c’est-à-dire qu’on vas lui donner une condition (ex : est-ce que la valeur de cette variable est plus petite que celle-là ? est ce que la valeur de cette variable est true ?...) et en si c’est vrai, elle vas effectuer l’action qu’on lui aura assignée, si c’est faux, elle ne l’effectuera pas.
+Pour ce qui est de la syntaxe elle est assez simple :
 
-If (condition)
-{
-	Bloc de code
-}
+```If (condition) ```
+```{```
+```	Bloc de code```
+```}```
 
-`$texte = “hello”`
+Ça c’est pour la condition de base, mais après cette condition, mais on peut incrémenter le code avec des ELSE et des ELSEIF :
 
-`If($texte -eq « hello »)`
+### Conditions ELSE et ELSIF : 
 
+En plus de la boucle IF, on peut rajouter plusieurs autres conditions à sa suite, la première est le ELSE, il correspond en français à un sinon. 
+Ajouté à la fin de la condition IF, il fera que si la condition n’est pas vraie (et donc que le contenue du IF ne s’exécute pas), il vas donc exécuter le contenue du ELSE à la place. 
+Si on résume ça fait un : si cette condition est vraie je fais ça, sinon, je fais ça.
+Et pour la syntaxe c’est très simple, on l’ajoute après la fin de la condition IF comme ceci :
+
+`If (condition) `
 `{`
-
-`Write-output “hello, how are you ?”`
-
-`} elseif($texte -eq « bonjour ») -or ($texte -eq “salut”) {`
-
-`Write-output “salut ! comment ça vas ?”`
-
+`	Bloc de code`
 `} else {`
-
-`Write-output “dafuk u just said ?”`
-
+`	Bloc de code `
 `}`
 
+Et ensuite, il existe le ELSIF, le ELSIF fonctionne (comme son nom l’indique) un peu comme les 2 autres conditions, il se place derrière un IF, mais avant le ELSE, (s’il y a un ELSE, ce qui n’est pas indispensable) et en gros, si la condition du IF n’est pas vrai, et bien il vérifie une nouvelle condition (la sienne, celle du ELSIF), si elle est vrai, il vas exécuter le programme contenue dans le ELSIF, et si c’est faux, il vas juste ne rien faire (à part si il y a un ELSE derrière).
+Et ce qui est encore mieux avec le ELSIF, ce que l’on peut en mettre autant que l’on veut, ce qui veut dire que l’on peut mettre une condition (IF) si elle est vrai on exécute, sinon on passe à une autre condition (ELSIF), si elle est vrai, on exécute, sinon, on passe à une autre condition (ELSIF) … et ainsi de suite, autant de fois que l’on veut jusqu’au ELSE.
+Et donc évidement, pour la syntaxe, ça se met comme une ELSE mais entre le IF et le ELSE :
+`If (condition) `
+`{`
+`	Bloc de code`
+`} elseif (condition) {`
+`	Bloc de code `
+`} else {`
+`	Bloc de code `
+`}`
 
--eq = equal
--ne = not equal
--gt = greater than (plus grand que)
--ge = greater than or equal to (plus grand ou egal)
--lt = less than (plus petit que)
-Le = less than or equal to (plus petit ou egal)
--or = ||
--and = &&
--like =
--notlike =
--match =
--notmatch =
--contains = (array)
--notcontains = (array)
+Mais on à toujours pas parlé des conditions…
 
+### Les opérateurs de conditions en Powershell :
+
+On a parlé de IF, ELSIF, ELSE mais on a pas encore parlé des condition que l’on peut mettre entre parenthèses après un IF ou un ELSIF, ses conditions sont généralement des variables que l’on compares (est ce que variable 1 est égale à variable 2 ? est-ce que variable 1 est null ?...) et pour les comparer, on utilise des opérateurs de conditions, comme l’opérateur -eq qui vérifie si 2 valeurs sont égales par exemple,  ses opérateurs se placent comme ceci dans une condition : ``` if ($variable1 -eq $variable2) ``` et ne sont pas strictement fonctionnels qu’avec des variables, il peut s’agir de simple valeurs comme par exemple : ``` if ($variable1 -eq 2) ```
+Voici une liste des plus importants opérateurs : 
+
+|opérateur |utilité |
+|--|----|
+|-eq | = equal|
+|-ne |= not equal|
+|-gt |= greater than (plus grand que) |
+|-ge |= greater than or equal to (plus grand ou egal) |
+|-lt |= less than (plus petit que) |
+|-le |= less than or equal to (plus petit ou egal) |
+|-or |=    |
+|-and |= &&|
+|-like |=  |
+|-notlike |= |
+|-match |= |
+-notmatch = |
+|-contains |= (array) |
+|-notcontains |= (array) |
 
 
 
