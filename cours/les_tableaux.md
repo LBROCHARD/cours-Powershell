@@ -17,7 +17,7 @@ Si on veut entrer manuellement la valeur, ça fonctionne comme pour une variable
 
 On peut aussi créer un tableau « vide » en utilisant le @ : ```$tableau = @()``` cela permet de créer un tableau vide que l’on pourra remplir plus tard.
 
-### Commandes utiles tableau :
+### Gérer les valeurs du tableau :
 
 Il y a maintenant plusieurs commandes qu’il faut connaitre afin d’utiliser correctement les tableaux :
 Pour obtenir une valeur particulière dans un tableau, il suffit de rajouter des crochets après le nom du tableau avec l’index de l’objet que l’on souhaite obtenir, comme ceci : ```$nom_du_tableau[index]```  (sachant qu’il ne faut pas oublier que le premier index d’un tableau à pour valeur 0, donc si on veut le 1er objet, on tape ```$nom_du_tableau[0]```,  et pour le second objet, son index sera l’index 2, et ainsi de suite…) , on peut également directement obtenir la dernière valeur d’un tableau en entrant l’index : -1
