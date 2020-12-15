@@ -16,7 +16,7 @@ Exemple sur le PowerShell ISE, une boucle qui compte jusqu'à 5 (probablement le
 
 ![boucleUNTIL](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-15%20112644.png "tout à fait basique")
 
-et le résultat :
+Et le résultat :
 
 ![boucleUNTILresult](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-15%20112706.png "par-fait")
 
@@ -32,6 +32,16 @@ Bloc de code
 
 } while (condition)
 ```
+
+ Le même exemple que tout à l’heure mais avec une boucle WHILE :
+ 
+ ![boucleWHILE](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-15%20112644.png "voilà voilà")
+ 
+ Et qui fonctionne tout aussi bien ...
+ 
+  ![boucleWHILEresult](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-15%20112644.png "même chose")
+ 
+ 
 
 Et on peut toujours rajouter -or ou -and comme pour la boucle 
 
