@@ -10,7 +10,14 @@ Ce qu'il faut en retenir, c'est que chaque "choses" que l'on va utiliser sont de
 ### Syntaxe générale :
 
 Pour la syntaxe générale, les commandelets (ou cmdlets), qui sont juste des commandes (vous inquiétez pas) sont formées en 2 parties : un préfix, qui représente une action, et un nom. Les 2 séparés par un tiret. Exemple : ```Get-Help``` c'est la commande la plus basique, littéralement : obtenir - de l’aide.
-Après ça, on peut rajouter des options, qui sont sous la forme d'un tiret et du nom de l'option, ex : ```write-host "Bonjour"``` affichera bonjour alors que ```write-host "Bonjour" -fore 'yellow'``` affichera la même chose, mais avec l'option ```-fore 'yellow'``` ce qui colorera le rendu en jaune.
+Après ça, on peut rajouter des options, qui sont sous la forme d'un tiret et du nom de l'option, ex : ```write-host "Bonjour"``` affichera bonjour :
+
+![bonjour](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-15%20084312.png  "bonjour à toi aussi programme !")
+
+Alors que ```write-host "Bonjour" -fore 'yred'``` affichera la même chose, mais avec l'option ```-fore 'red'``` ce qui colorera le rendu en rouge:
+
+![redbonjour](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-15%20084407.png  "bonjour en rouge ça fait un peu peur quand même")
+
 Ça marche par exemple pour trier quand on fait une recherche, par exemple, si on cherche des fichiers uniquement dans un dossier, on peut ajouter l'options ```-file``` après un ```Get-ChildItem``` pour qu'il ne nous montre uniquement que les fichiers : ```Get-ChildItem -file```
 Cette manière de former les commandes est plus longue que sur certains autres Shell (je pense à UNIX notamment), mais permet cependant de retenir/trouver facilement les commandes : comment obtenir de l'aide ? --> obtenir *tiret* aide
 Surtout que les préfix sont assez peu nombreux donc facile à retenir ...
@@ -54,7 +61,16 @@ Il y a maintenant quelques commandes essentielles qu'il faut connaître pour pou
 
 ### Les pipelines :
 
-Autre chose très très importante : les pipelines. Le pipeline c'est ce petit truc : ```|``` et il est très utile en PowerShell car il permet de chainer plusieurs commandes pour les faire fonctionner les unes derrières après les autres (si elles sont chainables), par exemple : la commande ```Get-process | out-file -filepath C:\Users\USER\Desktop\process.txt``` qui permet d'obtenir une liste des processus en cours grâce au ```Get-process``` permet aussi de les écris dans un fichier (situé dans le path indiqué, après l’option path) grâce au ```out-file```, qui utilise donc directement les information du ```Get-Process```, car il est placé derrière la pipeline, cela permet d'éviter de faire 2 lignes et peut s'avérer très utile de temps en temps.
+Autre chose très très importante : les pipelines. Le pipeline c'est ce petit truc : ```|``` et il est très utile en PowerShell car il permet de chainer plusieurs commandes pour les faire fonctionner les unes derrières après les autres (si elles sont chainables), par exemple : la commande ```Get-process | out-file -filepath C:\Users\nom_utilisateur\Desktop\process.txt``` qui permet d'obtenir une liste des processus en cours grâce au ```Get-process``` permet aussi de les écris dans un fichier (situé dans le path indiqué, après l’option path) grâce au ```out-file```, qui utilise donc directement les information du ```Get-Process```, car il est placé derrière la pipeline, cela permet d'éviter de faire 2 lignes et peut s'avérer très utile de temps en temps.
+
+  Regardez ça :
+
+![pipelinecommaande](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-15%20085204.png  "tube")
+
+Et dans le fichier texte :
+
+![fichier text](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-15%20085301.png  "je trouve ça tellement cool")
+
 
 ### Petit plus : 
 
