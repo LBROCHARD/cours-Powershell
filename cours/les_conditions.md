@@ -13,6 +13,7 @@ Pour ce qui est de la syntaxe elle est assez simple :
 If (condition) 
 {
   Bloc de code
+  
 }
 ```
 
@@ -29,8 +30,10 @@ Et pour la syntaxe c’est très simple, on l’ajoute après la fin de la condi
 If (condition) 
 {
 	Bloc de code
+	
 } else {
 	Bloc de code 
+	
 }
 ```
 
@@ -41,10 +44,13 @@ Et donc évidement, pour la syntaxe, ça se met comme une ELSE mais entre le IF 
 If (condition) 
 {
 	Bloc de code
+	
 } elseif (condition) {
 	Bloc de code 
+	
 } else {
 	Bloc de code 
+	
 }
 ```
 
