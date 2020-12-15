@@ -51,6 +51,6 @@ Et on peut toujours rajouter -or ou -and comme pour la boucle
 
 
 
-
+[aller vers *les scripts en powershell pt.2 : l'automatisation*](https://github.com/LBROCHARD/cours-linux/blob/main/cours/scripts_automatiser.md)
 
 [retour au README.md](https://github.com/LBROCHARD/cours-linux)
