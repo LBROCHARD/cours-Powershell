@@ -63,7 +63,7 @@ Le PowerShell n'est ni sensible à la casse (majuscules, minuscules), ni aux esp
 ***yes :D***
 
 
-[poursuivre vers : "les variables en powershell"](https://github.com/LBROCHARD/cours-linux/edit/main/cours/les_varaiables.md)
+[poursuivre vers : "les variables en powershell"](https://github.com/LBROCHARD/cours-linux/blob/main/cours/les_varaiables.md)
 
 
 
