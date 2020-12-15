@@ -14,7 +14,7 @@ Après ça, on peut rajouter des options, qui sont sous la forme d'un tiret et d
 
 ![bonjour](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-15%20084312.png  "bonjour à toi aussi programme !")
 
-Alors que ```write-host "Bonjour" -fore 'yred'``` affichera la même chose, mais avec l'option ```-fore 'red'``` ce qui colorera le rendu en rouge:
+Alors que ```write-host "Bonjour" -fore 'red'``` affichera la même chose, mais avec l'option ```-fore 'red'``` ce qui colorera le rendu en rouge:
 
 ![redbonjour](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-15%20084407.png  "bonjour en rouge ça fait un peu peur quand même")
 
