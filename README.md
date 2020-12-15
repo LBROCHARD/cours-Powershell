@@ -9,9 +9,9 @@ Ceci est un cour d'introduction au powershell, visant à comprendre ce qu'est le
   - [lien vers *les conditions en powershell*](https://github.com/LBROCHARD/cours-linux/blob/main/cours/les_conditions.md)
   - [lien vers *les boucles en powershell*](https://github.com/LBROCHARD/cours-linux/blob/main/cours/les_boucles.md)
 * [lien vers *les scripts en powershell pt.2 : l'automatisation des tâches*](https://github.com/LBROCHARD/cours-linux/blob/main/cours/scripts_automatiser.md)
-  - [lien vers *les commandes de gestion*]()
-  - [lien vers *TP exemples*]()
-* [lien vers *sources*]()
+  - [lien vers *les commandes de gestion*](https://github.com/LBROCHARD/cours-linux/edit/main/cours/commandes.md)
+  - [lien vers *TP exemples*](https://github.com/LBROCHARD/cours-linux/blob/main/cours/tp.md)
+* [lien vers *sources*](https://github.com/LBROCHARD/cours-linux)
 
 (ne pas ce soucier de ça :)
 
