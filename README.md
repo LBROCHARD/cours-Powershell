@@ -11,7 +11,7 @@ Ceci est un cour d'introduction au powershell, visant à comprendre ce qu'est le
 * [lien vers *les scripts en powershell pt.2 : l'automatisation des tâches*](https://github.com/LBROCHARD/cours-linux/blob/main/cours/scripts_automatiser.md)
   - [lien vers *les commandes de gestion*](https://github.com/LBROCHARD/cours-linux/blob/main/cours/gestions.md)
   - [lien vers *TP exemples*](https://github.com/LBROCHARD/cours-linux/blob/main/cours/tp.md)
-* [lien vers *sources*](https://github.com/LBROCHARD/cours-linux)
+* [lien vers *sources*](https://github.com/LBROCHARD/cours-linux/blob/main/sources.md)
 
 (ne pas ce soucier de ça :)
 
