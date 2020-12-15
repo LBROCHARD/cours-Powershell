@@ -9,10 +9,12 @@ En PowerShell, il existe trois types de conditions, le IF, le ELSE, et le ELSEIF
 La base de ses conditions fonctionne de la manière suivante : le IF se traduit par un « si » en français, c’est-à-dire qu’on vas lui donner une condition (ex : est-ce que la valeur de cette variable est plus petite que celle-là ? est ce que la valeur de cette variable est true ?...) et en si c’est vrai, elle vas effectuer l’action qu’on lui aura assignée, si c’est faux, elle ne l’effectuera pas.
 Pour ce qui est de la syntaxe elle est assez simple :
 
-```If (condition) ```
-```{```
-```	Bloc de code```
-```}```
+```powershell
+If (condition) 
+{
+  Bloc de code
+}
+```
 
 Ça c’est pour la condition de base, mais après cette condition, mais on peut incrémenter le code avec des ELSE et des ELSEIF :
 
@@ -23,24 +25,28 @@ Ajouté à la fin de la condition IF, il fera que si la condition n’est pas vr
 Si on résume ça fait un : si cette condition est vraie je fais ça, sinon, je fais ça.
 Et pour la syntaxe c’est très simple, on l’ajoute après la fin de la condition IF comme ceci :
 
-`If (condition) `
-`{`
-`	Bloc de code`
-`} else {`
-`	Bloc de code `
-`}`
+```powershell
+If (condition) 
+{
+	Bloc de code
+} else {
+	Bloc de code 
+}
+```
 
 Et ensuite, il existe le ELSIF, le ELSIF fonctionne (comme son nom l’indique) un peu comme les 2 autres conditions, il se place derrière un IF, mais avant le ELSE, (s’il y a un ELSE, ce qui n’est pas indispensable) et en gros, si la condition du IF n’est pas vrai, et bien il vérifie une nouvelle condition (la sienne, celle du ELSIF), si elle est vrai, il vas exécuter le programme contenue dans le ELSIF, et si c’est faux, il vas juste ne rien faire (à part si il y a un ELSE derrière).
 Et ce qui est encore mieux avec le ELSIF, ce que l’on peut en mettre autant que l’on veut, ce qui veut dire que l’on peut mettre une condition (IF) si elle est vrai on exécute, sinon on passe à une autre condition (ELSIF), si elle est vrai, on exécute, sinon, on passe à une autre condition (ELSIF) … et ainsi de suite, autant de fois que l’on veut jusqu’au ELSE.
 Et donc évidement, pour la syntaxe, ça se met comme une ELSE mais entre le IF et le ELSE :
-`If (condition) `
-`{`
-`	Bloc de code`
-`} elseif (condition) {`
-`	Bloc de code `
-`} else {`
-`	Bloc de code `
-`}`
+```powershell
+If (condition) 
+{
+	Bloc de code
+} elseif (condition) {
+	Bloc de code 
+} else {
+	Bloc de code 
+}
+```
 
 Mais on à toujours pas parlé des conditions…
 
