@@ -11,9 +11,13 @@ Comme la plupart des langages, on peut effectuer une opération durant une affec
 
 ![variables](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-15%20090245.png  "ça fait bcp de variables pour pas grand chose mais bon...")
 
-Et l'opération peut également être une concaténation : ```$var1 = "bonjour "```, 
-```$var2 = "comment ça va ?"```, 
-```$var = $var1 + $var2```, ce qui vas nous donner : "bonjour comment ça va ?" (on peut vérifier) :
+Et l'opération peut également être une concaténation : 
+```powershell
+$var1 = "bonjour "
+$var2 = "comment ça va ?" 
+$var = $var1 + $var2
+```
+, ce qui vas nous donner : "bonjour comment ça va ?" (on peut vérifier) :
 
 ![bonjour](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-15%20090810.png  "nickel")
 
