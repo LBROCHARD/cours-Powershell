@@ -51,20 +51,19 @@ Voici une liste des plus importants opérateurs :
 
 |opérateur |utilité |
 |--|----|
-|-eq | = equal|
-|-ne |= not equal|
-|-gt |= greater than (plus grand que) |
-|-ge |= greater than or equal to (plus grand ou egal) |
-|-lt |= less than (plus petit que) |
-|-le |= less than or equal to (plus petit ou egal) |
-|-or |=    |
-|-and |= &&|
-|-like |=  |
-|-notlike |= |
-|-match |= |
--notmatch = |
-|-contains |= (array) |
-|-notcontains |= (array) |
+|-eq |vérifie si deux valeurs sont égales (==) |
+|-ne |vérifie si deux valeurs ne sont pas égales (!=) |
+|-gt |vérifie si la valeur de gauche est plus grande que la valeur de droite (>) |
+|-ge |vérifie si la valeur de gauche est plus grande ou égale à la valeur de droite (>=) |
+|-lt |vérifie si la valeur de gauche est plus petite que la valeur de droite (<) |
+|-le |vérifie si la valeur de gauche est plus petite ou égale à la valeur de droite (<=) |
+|-contains |vérifie si la collection (tableau) contient la valeur placée après |
+|-notcontains |vérifie si la collection (tableau) ne contient pas la valeur placée après |
+|-in |même chose que contains mais la valeur est à gauche et la collection est à droite |
+|-notin |même chose que notcontains mais la valeur est à gauche et la collection est à droite |
+
+On peut aussi ajouter plusieurs conditions grâce à -or, qui exécute le code si une des deux conditions est vrai, et -and, qui exécute le code si les deux conditions sont vraies. Ils se placent comme ceci :
+`(condition) -or (condition)`
 
 
 
