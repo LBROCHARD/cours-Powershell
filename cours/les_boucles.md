@@ -5,7 +5,8 @@ La boucle est un outil très puissant qui permet d’éviter d’effectuer des t
 ### la boucle UNTIL :
 
 La première des 2 boucles est la boucle UNTIL, la boucle UNTIL (jusqu’à en français) exécute un code jusqu’à ce que la condition soit vrai (facile en sois), pour la syntaxe, elle s’utilise comme ceci :
-```do {
+```powershell
+do {
 Bloc de code
 } until (condition) 
 ```
@@ -16,7 +17,8 @@ Et évidemment, on peut ajouter plusieurs conditions grâce à -or ou -and qui p
 
 La seconde des 2 boucles est la boucle WHILE (tant que en français), contrairement à la boucle UNTIL exécute un code TANT que la condition est vrai, pour la syntaxe, c’est la même chose que pour la boucle UNTIL :
 
-```do {
+```powershell
+do {
 Bloc de code 
 } while (condition)
 ```
