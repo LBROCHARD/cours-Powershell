@@ -8,6 +8,7 @@ La première des 2 boucles est la boucle UNTIL, la boucle UNTIL (jusqu’à en f
 ```powershell
 do {
 Bloc de code
+
 } until (condition) 
 ```
 
@@ -20,6 +21,7 @@ La seconde des 2 boucles est la boucle WHILE (tant que en français), contrairem
 ```powershell
 do {
 Bloc de code 
+
 } while (condition)
 ```
 
