@@ -69,7 +69,7 @@ Autre chose très très importante : les pipelines. Le pipeline c'est ce petit t
 
 Et dans le fichier texte :
 
-![fichier text](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-15%20085204.png  "je trouve ça tellement cool")
+![fichier text](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-15%20085301.png  "je trouve ça tellement cool")
 
 
 ### Petit plus : 
