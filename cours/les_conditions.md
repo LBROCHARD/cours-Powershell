@@ -65,7 +65,9 @@ Voici une liste des plus importants opérateurs :
 On peut aussi ajouter plusieurs conditions grâce à -or, qui exécute le code si une des deux conditions est vrai, et -and, qui exécute le code si les deux conditions sont vraies. Ils se placent comme ceci :
 `(condition) -or (condition)`
 
+Petit exemple qui résume un peu tout ce qu’on a vu (avec le Sowershell ISE) :
 
+![megacondition](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-15%20104843.png "elle veut rien dire, mais elle prend un peu tout")
 
 
 [aller vers *les boucles en powershell*](https://github.com/LBROCHARD/cours-linux/blob/main/cours/les_boucles.md)
