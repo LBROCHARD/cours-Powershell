@@ -12,6 +12,14 @@ Bloc de code
 } until (condition) 
 ```
 
+Exemple sur le PowerShell ISE, une boucle qui compte jusqu'à 5 (probablement le truc le plus basique qu'on peut faire) :
+
+![boucleUNTIL](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-15%20112644.png "tout à fait basique")
+
+et le résultat :
+
+![boucleUNTILresult](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-15%20112706.png "par-fait")
+
 Et évidemment, on peut ajouter plusieurs conditions grâce à -or ou -and qui peuvent être placés entre plusieurs conditions, -or pour que au moins une des deux conditions soient vrai, et -and pour que les 2 conditions soient vraies, comme ceci : ```} until (condition1) -or (condition2) ```
 
 ### la boucle WHILE :
