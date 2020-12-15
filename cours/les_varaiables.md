@@ -7,15 +7,15 @@ Pour ce qui est du PowerShell, les variables à chaque fois qu'on les utilises, 
 Pour affecter une valeur à une variable, ça fonctionne de la manière suivante : ``` $nom_variable = contenue``` si la variable n'existe pas, cette commande la créera automatiquement.
 En fonction du contenue indiqué le type de la variable sera assigné automatiquement, mais si on veut le faire à la main, on peut le mettre entre crochets : ```[string]$var = "salu" ``` 
 (Pour connaitre le type d'une variable on peut utiliser ```$nom_variable.GetType()``` )
-Comme la plupart des langages, on peut effectuer une opération durant une affectation, comme cela par exemple : ```$prix = 5 + 2``` et cette opération peut se faire avec une ou plusieurs variables : ```$prix1 = 12```, 
-```$prix2 = 4```, 
-```$prix3 = $prix1 + 3```, 
-```$prix = $prix3 + $prix2```, 
+Comme la plupart des langages, on peut effectuer une opération durant une affectation, comme cela par exemple : ```$prix = 5 + 2``` et cette opération peut se faire avec une ou plusieurs variables : 
+
+![variables](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-15%20090245.png  "ça fait bcp de variables pour pas grand chose mais bon...")
+
 Et l'opération peut également être une concaténation : ```$var1 = "bonjour "```, 
 ```$var2 = "comment ça va ?"```, 
-```$var = $var1 + $var2``` (ce qui vas nous donner : "bonjour comment ça va ?")
+```$var = $var1 + $var2```, ce qui vas nous donner : "bonjour comment ça va ?" (on peut vérifier) :
 
-
+![bonjour](https://github.com/LBROCHARD/cours-linux/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202020-12-15%20090810.png  "nickel")
 
 ### Types de variables :
 
@@ -34,6 +34,11 @@ Il existe différents types de variables en PowerShel :
 |datetime |date et heure |
 |array |tableau (voir a tableau) |
 |hashtable |tableau de hachage (pareil) |
+
+### Portée d'une variable :
+
+Une variable peut avoir différentes portées, elle peut avoir une portée globale, c'est à dire qu'elle porte sur l'ensemble du PowerShell alors qu'une variable locale ne porte que sur un seul programme.
+Pour qu'une variable soit globale, il faut utiliser la commande suivante : ```$Global: variable = valeur``` comme par exemple : ```$Global:var4 = 12```
 
 ### Quelques commandes utiles :
 
