@@ -63,7 +63,7 @@ Voici une liste des plus importants opérateurs :
 |-notin |même chose que notcontains mais la valeur est à gauche et la collection est à droite |
 
 On peut aussi ajouter plusieurs conditions grâce à -or, qui exécute le code si une des deux conditions est vrai, et -and, qui exécute le code si les deux conditions sont vraies. Ils se placent comme ceci :
-`(condition) -or (condition)`
+`((condition) -or (condition))`
 
 Petit exemple qui résume un peu tout ce qu’on a vu (avec le Sowershell ISE) :
 
