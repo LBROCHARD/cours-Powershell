@@ -1,8 +1,18 @@
 # gestion
 
-## commandes utiles :
+## Commandes utiles :
+
+|commande |utilité |
+|-------|-----------|
+|Write-Host "contenue" | |
+|$variable Read-Host -Prompt "contenue" | |
+|Set-ExecutionPolicy RemoteSigned | |
+| | |
+| | |
 
 
+
+## Commandes utiles de gestion d'utilisateurs :
 
 |commande |utilité |
 |-------|-----------|
