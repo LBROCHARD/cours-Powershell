@@ -42,22 +42,11 @@ Notez que l’on peut aussi lancer une seule partie de code en la sélectionnant
 Et voilà, c’est donc comme cela que l’on peut faire et exécuter un programme grâce au PowerShell ISE.
 Maintenant qu’on a vu ça, on vas voir quelques cas pratiques séparés en TP.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [aller vers *cas pratiques/TP*](https://github.com/LBROCHARD/cours-linux)
+
+Et voici un lien vers une liste de commandes complémentaires :
+
+[aller vers *commandes supplémentaires*](https://github.com/LBROCHARD/cours-linux/blob/main/cours/gestions.md)
 
 
 [retour au README.md](https://github.com/LBROCHARD/cours-linux)
