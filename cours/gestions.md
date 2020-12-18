@@ -1,12 +1,12 @@
-# gestion
+# Commandes suplémentaires :
 
 ## Commandes utiles :
 
 |commande |utilité |
 |-------|-----------|
-|Write-Host "contenue" | |
-|$variable Read-Host -Prompt "contenue" | |
-|Set-ExecutionPolicy RemoteSigned | |
+|Write-Host "contenu" |Permet d'afficher "contenu" sur l'écran |
+|$variable Read-Host -Prompt "contenu" |Permet d'affecter "$variable" à une valeur entrée par l'utilisateur (le prompt permet d'afficher une message juste avant)|
+|Set-ExecutionPolicy RemoteSigned |Permet d'obtenir les droits d'executions de scripts |
 | | |
 | | |
 
