@@ -14,8 +14,3 @@ Ceci est un cour d'introduction au powershell, visant à comprendre ce qu'est le
 * [lien vers *sources*](https://github.com/LBROCHARD/cours-linux/blob/main/sources.md)
 
 
-( ne pas ce soucier de ça : )
-
-
-* [lien vers le queskifofère](https://github.com/LBROCHARD/cours-linux/blob/main/liste_de_choses_%C3%A0_faire.md)
-* [lien vers la base du cours](https://github.com/LBROCHARD/cours-linux/blob/main/powershell.md)
