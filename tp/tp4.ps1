@@ -25,13 +25,10 @@ if ($awnser -eq "add") {
 
     } else {
         New-Item $ContactFile -Value $content
+        $everycontact = Get-Content -Path "C:\Users\lewis\Desktop\TAF\linux\powershell\tp4\everycontact.txt"
+        Set-Content -Path "C:\Users\lewis\Desktop\TAF\linux\powershell\tp4\everycontact.txt" ($everycontact + "`n" + "$name")
 
     }
-
-
-
-
-
 
 
 } elseif ($awnser -eq "modify") {
@@ -80,17 +77,14 @@ if ($awnser -eq "add") {
     }
 
 
-
-
 } elseif ($awnser -eq "list") {
+    $everycontact = Get-Content -Path "C:\Users\lewis\Desktop\TAF\linux\powershell\tp4\everycontact.txt"
 
+    foreach ($items in $everycontact) {
 
-
-
-
-
-
-
+        Write-Host $items
+    }
+    
 
 } elseif ($awnser -eq "details") {
 
@@ -108,27 +102,11 @@ if ($awnser -eq "add") {
 
     }
 
-
-
-
 } elseif ($awnser -eq "mail") {
 
-
-
-
-
-
-
-
+ 
 
 } elseif ($awnser -eq "number") {
-
-
-
-
-
-
-
 
 
 } elseif ($awnser -eq "delete") {
@@ -142,15 +120,11 @@ if ($awnser -eq "add") {
         Remove-Item -path $ContactFile
 
 
+
     } else {
         Write-Host "ce contact n'éxiste pas"
 
     }
-
-
-
-
-
 
 
 } else {
