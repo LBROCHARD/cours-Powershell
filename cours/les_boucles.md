@@ -43,10 +43,7 @@ Bloc de code
  
  
 
-Et on peut toujours rajouter -or ou -and comme pour la boucle 
-
-
-
+Et on peut toujours rajouter -or ou -and comme pour la boucle until
 
 
 
