@@ -1,6 +1,6 @@
 # Sources 
 
-Liens vers la plupart des sites utilisées pour écrir ce cours :
+Liens vers la plupart des sites utilisées pour écrire ce cours :
 
 
 
