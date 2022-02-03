@@ -1,4 +1,4 @@
-# cours-linux
+# cours-powershell
 
 Ceci est un cour d'introduction au powershell, visant à comprendre ce qu'est le powershell, et à savoir l'utiliser pour pouvoir developper quelques scriptes basiques d'executions de commandes.
 
